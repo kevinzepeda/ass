@@ -12,10 +12,10 @@ class ManualInstall extends Seeder
 
     public function run()
     {
-        $first_name = 'admin';
-        $last_name = 'admin';
-        $email = 'admin@admin.com';
-        $password = 'password';
+        $first_name = 'Kevin';
+        $last_name = 'Zepeda';
+        $email = 'ke@vin.com';
+        $password = '23031996';
 
         $this->settingsRepository = new SettingsRepositoryEloquent(app());
         $this->userRepository = new UserRepositoryEloquent(app());
