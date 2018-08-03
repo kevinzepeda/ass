@@ -12,9 +12,9 @@ class SettingsSeeder extends DatabaseSeeder
 
         $this->settingsRepository = new SettingsRepositoryEloquent(app());
 
-        $this->settingsRepository->setKey('site_name', 'LCRM SAAS');
+        $this->settingsRepository->setKey('site_name', 'Workets');
         $this->settingsRepository->setKey('site_logo', 'logo.png');
-        $this->settingsRepository->setKey('site_email', 'info@domain.com');
+        $this->settingsRepository->setKey('site_email', 'hola@workets.com');
         $this->settingsRepository->setKey('allowed_extensions', 'gif,jpg,jpeg,png,pdf,txt');
         $this->settingsRepository->setKey('backup_type', 'local');
         $this->settingsRepository->setKey('email_driver', 'mail');
