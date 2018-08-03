@@ -1,0 +1,27 @@
+<?php
+return [
+    'blog' => 'Blog',
+    'blog_categories' => 'Blog Categories',
+    'blog_categories_list' => 'Blog Categories List',
+    'blog_category_name' => 'Blog Category Name',
+    'category_name' => 'Category Name',
+    'create_blog_category' => 'Create Blog Category',
+    'edit_blog_category' => 'Edit Blog Category',
+    'delete_blog_category' => 'Delete Blog Category',
+    'create_blog' => 'Create Blog',
+    'edit_blog' => 'Edit Blog',
+    'delete_blog' => 'Delete Blog',
+    'title' => 'Title',
+    'description' => 'Description',
+    'blog_category' => 'Blog Category',
+    'show_blog' => 'Show Blog',
+    'tags' => 'Tags',
+    'featured_image' => 'Featured Image',
+    'name' => 'Name',
+    'email' => 'Email',
+    'comment' => 'Comment',
+    'website' => 'Website',
+    'blog_list' => 'Blog List',
+    'no_of_comments' => 'No. of Comments',
+    'no_of_blogs' => 'No. of Blogs'
+];
